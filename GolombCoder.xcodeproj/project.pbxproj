@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA1595A31D89C7C10065388C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA1595A21D89C7C10065388C /* main.cpp */; };
+		FA1595AB1D89CA8A0065388C /* GolombGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA1595A91D89CA8A0065388C /* GolombGenerator.cpp */; };
+		FA1595AE1D89CEB20065388C /* GolombCoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA1595AC1D89CEB20065388C /* GolombCoder.cpp */; };
+		FA1595B11D8B1E0F0065388C /* GolombDecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA1595AF1D8B1E0F0065388C /* GolombDecoder.cpp */; };
+		FA3EA20B1DE19DB9009639D3 /* MarcovGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3EA2091DE19DB9009639D3 /* MarcovGenerator.cpp */; };
+		FA3EA20E1DE1D813009639D3 /* ValueAccumulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3EA20C1DE1D813009639D3 /* ValueAccumulator.cpp */; };
+		FA3EA2121DEDE203009639D3 /* HaffmanDecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3EA2101DEDE203009639D3 /* HaffmanDecoder.cpp */; };
+		FA3EA2151DEDE6E7009639D3 /* HaffmanCoderPair.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3EA2131DEDE6E7009639D3 /* HaffmanCoderPair.cpp */; };
+		FA3EA2181DEDE7F1009639D3 /* HaffmanDecoderPair.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3EA2161DEDE7F1009639D3 /* HaffmanDecoderPair.cpp */; };
+		FA3EA21B1DEDF1C3009639D3 /* WriteToFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3EA2191DEDF1C3009639D3 /* WriteToFile.cpp */; };
+		FA3EA21E1DEE08C0009639D3 /* ReadFromFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3EA21C1DEE08C0009639D3 /* ReadFromFile.cpp */; };
+		FA3EA2241DEEC2FE009639D3 /* MatrixCulculate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3EA2221DEEC2FE009639D3 /* MatrixCulculate.cpp */; };
+		FA9248651DC9D16E00C5B523 /* HafmanCoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA9248631DC9D16E00C5B523 /* HafmanCoder.cpp */; };
+		FA92486B1DC9DEB400C5B523 /* HaffmanContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA9248691DC9DEB400C5B523 /* HaffmanContainer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA15959D1D89C7C10065388C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA15959F1D89C7C10065388C /* GolombCoder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GolombCoder; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1595A21D89C7C10065388C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FA1595A91D89CA8A0065388C /* GolombGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GolombGenerator.cpp; sourceTree = "<group>"; };
+		FA1595AA1D89CA8A0065388C /* GolombGenerator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GolombGenerator.hpp; sourceTree = "<group>"; };
+		FA1595AC1D89CEB20065388C /* GolombCoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GolombCoder.cpp; sourceTree = "<group>"; };
+		FA1595AD1D89CEB20065388C /* GolombCoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GolombCoder.hpp; sourceTree = "<group>"; };
+		FA1595AF1D8B1E0F0065388C /* GolombDecoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GolombDecoder.cpp; sourceTree = "<group>"; };
+		FA1595B01D8B1E0F0065388C /* GolombDecoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GolombDecoder.hpp; sourceTree = "<group>"; };
+		FA3EA2091DE19DB9009639D3 /* MarcovGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MarcovGenerator.cpp; sourceTree = "<group>"; };
+		FA3EA20A1DE19DB9009639D3 /* MarcovGenerator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MarcovGenerator.hpp; sourceTree = "<group>"; };
+		FA3EA20C1DE1D813009639D3 /* ValueAccumulator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValueAccumulator.cpp; sourceTree = "<group>"; };
+		FA3EA20D1DE1D813009639D3 /* ValueAccumulator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ValueAccumulator.hpp; sourceTree = "<group>"; };
+		FA3EA20F1DE1F00D009639D3 /* HaffmanMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HaffmanMain.h; sourceTree = "<group>"; };
+		FA3EA2101DEDE203009639D3 /* HaffmanDecoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HaffmanDecoder.cpp; sourceTree = "<group>"; };
+		FA3EA2111DEDE203009639D3 /* HaffmanDecoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HaffmanDecoder.hpp; sourceTree = "<group>"; };
+		FA3EA2131DEDE6E7009639D3 /* HaffmanCoderPair.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HaffmanCoderPair.cpp; sourceTree = "<group>"; };
+		FA3EA2141DEDE6E7009639D3 /* HaffmanCoderPair.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HaffmanCoderPair.hpp; sourceTree = "<group>"; };
+		FA3EA2161DEDE7F1009639D3 /* HaffmanDecoderPair.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HaffmanDecoderPair.cpp; sourceTree = "<group>"; };
+		FA3EA2171DEDE7F1009639D3 /* HaffmanDecoderPair.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HaffmanDecoderPair.hpp; sourceTree = "<group>"; };
+		FA3EA2191DEDF1C3009639D3 /* WriteToFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WriteToFile.cpp; sourceTree = "<group>"; };
+		FA3EA21A1DEDF1C3009639D3 /* WriteToFile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WriteToFile.hpp; sourceTree = "<group>"; };
+		FA3EA21C1DEE08C0009639D3 /* ReadFromFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReadFromFile.cpp; sourceTree = "<group>"; };
+		FA3EA21D1DEE08C0009639D3 /* ReadFromFile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ReadFromFile.hpp; sourceTree = "<group>"; };
+		FA3EA2221DEEC2FE009639D3 /* MatrixCulculate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixCulculate.cpp; sourceTree = "<group>"; };
+		FA3EA2231DEEC2FE009639D3 /* MatrixCulculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixCulculate.h; sourceTree = "<group>"; };
+		FA3EA2251DFD8A83009639D3 /* GolombMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GolombMain.h; sourceTree = "<group>"; };
+		FA9248631DC9D16E00C5B523 /* HafmanCoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HafmanCoder.cpp; sourceTree = "<group>"; };
+		FA9248641DC9D16E00C5B523 /* HafmanCoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HafmanCoder.hpp; sourceTree = "<group>"; };
+		FA9248671DC9DC6500C5B523 /* HaffmanElement.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HaffmanElement.hpp; sourceTree = "<group>"; };
+		FA9248691DC9DEB400C5B523 /* HaffmanContainer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HaffmanContainer.cpp; sourceTree = "<group>"; };
+		FA92486A1DC9DEB400C5B523 /* HaffmanContainer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HaffmanContainer.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA15959C1D89C7C10065388C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA1595961D89C7C10065388C = {
+			isa = PBXGroup;
+			children = (
+				FA1595A11D89C7C10065388C /* GolombCoder */,
+				FA1595A01D89C7C10065388C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA1595A01D89C7C10065388C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA15959F1D89C7C10065388C /* GolombCoder */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA1595A11D89C7C10065388C /* GolombCoder */ = {
+			isa = PBXGroup;
+			children = (
+				FA3EA2081DE19D7D009639D3 /* Generators */,
+				FA1BB7781DDC481000AEC06E /* Haffman */,
+				FA1BB7771DDC47F600AEC06E /* Golomb */,
+				FA1595A21D89C7C10065388C /* main.cpp */,
+				FA3EA2191DEDF1C3009639D3 /* WriteToFile.cpp */,
+				FA3EA21A1DEDF1C3009639D3 /* WriteToFile.hpp */,
+				FA3EA21C1DEE08C0009639D3 /* ReadFromFile.cpp */,
+				FA3EA21D1DEE08C0009639D3 /* ReadFromFile.hpp */,
+			);
+			path = GolombCoder;
+			sourceTree = "<group>";
+		};
+		FA1BB7771DDC47F600AEC06E /* Golomb */ = {
+			isa = PBXGroup;
+			children = (
+				FA1595AC1D89CEB20065388C /* GolombCoder.cpp */,
+				FA1595AD1D89CEB20065388C /* GolombCoder.hpp */,
+				FA1595A91D89CA8A0065388C /* GolombGenerator.cpp */,
+				FA1595AA1D89CA8A0065388C /* GolombGenerator.hpp */,
+				FA1595AF1D8B1E0F0065388C /* GolombDecoder.cpp */,
+				FA1595B01D8B1E0F0065388C /* GolombDecoder.hpp */,
+				FA3EA2251DFD8A83009639D3 /* GolombMain.h */,
+			);
+			name = Golomb;
+			sourceTree = "<group>";
+		};
+		FA1BB7781DDC481000AEC06E /* Haffman */ = {
+			isa = PBXGroup;
+			children = (
+				FA9248631DC9D16E00C5B523 /* HafmanCoder.cpp */,
+				FA3EA2161DEDE7F1009639D3 /* HaffmanDecoderPair.cpp */,
+				FA3EA2171DEDE7F1009639D3 /* HaffmanDecoderPair.hpp */,
+				FA9248641DC9D16E00C5B523 /* HafmanCoder.hpp */,
+				FA9248671DC9DC6500C5B523 /* HaffmanElement.hpp */,
+				FA9248691DC9DEB400C5B523 /* HaffmanContainer.cpp */,
+				FA92486A1DC9DEB400C5B523 /* HaffmanContainer.hpp */,
+				FA3EA20F1DE1F00D009639D3 /* HaffmanMain.h */,
+				FA3EA2101DEDE203009639D3 /* HaffmanDecoder.cpp */,
+				FA3EA2111DEDE203009639D3 /* HaffmanDecoder.hpp */,
+				FA3EA2131DEDE6E7009639D3 /* HaffmanCoderPair.cpp */,
+				FA3EA2141DEDE6E7009639D3 /* HaffmanCoderPair.hpp */,
+			);
+			name = Haffman;
+			sourceTree = "<group>";
+		};
+		FA3EA2081DE19D7D009639D3 /* Generators */ = {
+			isa = PBXGroup;
+			children = (
+				FA3EA2221DEEC2FE009639D3 /* MatrixCulculate.cpp */,
+				FA3EA2231DEEC2FE009639D3 /* MatrixCulculate.h */,
+				FA3EA2091DE19DB9009639D3 /* MarcovGenerator.cpp */,
+				FA3EA20A1DE19DB9009639D3 /* MarcovGenerator.hpp */,
+				FA3EA20C1DE1D813009639D3 /* ValueAccumulator.cpp */,
+				FA3EA20D1DE1D813009639D3 /* ValueAccumulator.hpp */,
+			);
+			name = Generators;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA15959E1D89C7C10065388C /* GolombCoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1595A61D89C7C10065388C /* Build configuration list for PBXNativeTarget "GolombCoder" */;
+			buildPhases = (
+				FA15959B1D89C7C10065388C /* Sources */,
+				FA15959C1D89C7C10065388C /* Frameworks */,
+				FA15959D1D89C7C10065388C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GolombCoder;
+			productName = GolombCoder;
+			productReference = FA15959F1D89C7C10065388C /* GolombCoder */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA1595971D89C7C10065388C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = kosa;
+				TargetAttributes = {
+					FA15959E1D89C7C10065388C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FA15959A1D89C7C10065388C /* Build configuration list for PBXProject "GolombCoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA1595961D89C7C10065388C;
+			productRefGroup = FA1595A01D89C7C10065388C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA15959E1D89C7C10065388C /* GolombCoder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA15959B1D89C7C10065388C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1595B11D8B1E0F0065388C /* GolombDecoder.cpp in Sources */,
+				FA9248651DC9D16E00C5B523 /* HafmanCoder.cpp in Sources */,
+				FA3EA20E1DE1D813009639D3 /* ValueAccumulator.cpp in Sources */,
+				FA3EA2151DEDE6E7009639D3 /* HaffmanCoderPair.cpp in Sources */,
+				FA3EA2181DEDE7F1009639D3 /* HaffmanDecoderPair.cpp in Sources */,
+				FA1595A31D89C7C10065388C /* main.cpp in Sources */,
+				FA92486B1DC9DEB400C5B523 /* HaffmanContainer.cpp in Sources */,
+				FA1595AB1D89CA8A0065388C /* GolombGenerator.cpp in Sources */,
+				FA3EA2121DEDE203009639D3 /* HaffmanDecoder.cpp in Sources */,
+				FA3EA20B1DE19DB9009639D3 /* MarcovGenerator.cpp in Sources */,
+				FA3EA21B1DEDF1C3009639D3 /* WriteToFile.cpp in Sources */,
+				FA3EA2241DEEC2FE009639D3 /* MatrixCulculate.cpp in Sources */,
+				FA1595AE1D89CEB20065388C /* GolombCoder.cpp in Sources */,
+				FA3EA21E1DEE08C0009639D3 /* ReadFromFile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA1595A41D89C7C10065388C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA1595A51D89C7C10065388C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA1595A71D89C7C10065388C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA1595A81D89C7C10065388C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA15959A1D89C7C10065388C /* Build configuration list for PBXProject "GolombCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1595A41D89C7C10065388C /* Debug */,
+				FA1595A51D89C7C10065388C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1595A61D89C7C10065388C /* Build configuration list for PBXNativeTarget "GolombCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1595A71D89C7C10065388C /* Debug */,
+				FA1595A81D89C7C10065388C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA1595971D89C7C10065388C /* Project object */;
+}
