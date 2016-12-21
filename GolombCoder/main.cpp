@@ -28,6 +28,6 @@ int main(int argc, const char * argv[])
     golomb();
     
     /// Arifmetic
-    ArifmeticDef();
+    Arifmetic();
     
 }

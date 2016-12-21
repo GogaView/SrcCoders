@@ -67,6 +67,7 @@ std::map<int, std::pair<double, double>> _getProbe(std::map<int, std::map<int, i
         pair.second = dRes;
         
         res.insert(std::make_pair(iVal, pair));
+        iVal++;
     }
     
     return res;
