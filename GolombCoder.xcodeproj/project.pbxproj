@@ -19,6 +19,8 @@
 		FA3EA21B1DEDF1C3009639D3 /* WriteToFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3EA2191DEDF1C3009639D3 /* WriteToFile.cpp */; };
 		FA3EA21E1DEE08C0009639D3 /* ReadFromFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3EA21C1DEE08C0009639D3 /* ReadFromFile.cpp */; };
 		FA3EA2241DEEC2FE009639D3 /* MatrixCulculate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3EA2221DEEC2FE009639D3 /* MatrixCulculate.cpp */; };
+		FA3EA2291DFDAF1C009639D3 /* ArifmeticCodec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3EA2271DFDAF1C009639D3 /* ArifmeticCodec.cpp */; };
+		FA3EA22D1DFDB6CB009639D3 /* ArifmeticProbe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3EA22B1DFDB6CB009639D3 /* ArifmeticProbe.cpp */; };
 		FA9248651DC9D16E00C5B523 /* HafmanCoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA9248631DC9D16E00C5B523 /* HafmanCoder.cpp */; };
 		FA92486B1DC9DEB400C5B523 /* HaffmanContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA9248691DC9DEB400C5B523 /* HaffmanContainer.cpp */; };
 /* End PBXBuildFile section */
@@ -62,6 +64,11 @@
 		FA3EA2221DEEC2FE009639D3 /* MatrixCulculate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixCulculate.cpp; sourceTree = "<group>"; };
 		FA3EA2231DEEC2FE009639D3 /* MatrixCulculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixCulculate.h; sourceTree = "<group>"; };
 		FA3EA2251DFD8A83009639D3 /* GolombMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GolombMain.h; sourceTree = "<group>"; };
+		FA3EA2271DFDAF1C009639D3 /* ArifmeticCodec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArifmeticCodec.cpp; sourceTree = "<group>"; };
+		FA3EA2281DFDAF1C009639D3 /* ArifmeticCodec.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ArifmeticCodec.hpp; sourceTree = "<group>"; };
+		FA3EA22A1DFDB4D7009639D3 /* ArifmeticMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArifmeticMain.h; sourceTree = "<group>"; };
+		FA3EA22B1DFDB6CB009639D3 /* ArifmeticProbe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArifmeticProbe.cpp; sourceTree = "<group>"; };
+		FA3EA22C1DFDB6CB009639D3 /* ArifmeticProbe.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ArifmeticProbe.hpp; sourceTree = "<group>"; };
 		FA9248631DC9D16E00C5B523 /* HafmanCoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HafmanCoder.cpp; sourceTree = "<group>"; };
 		FA9248641DC9D16E00C5B523 /* HafmanCoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HafmanCoder.hpp; sourceTree = "<group>"; };
 		FA9248671DC9DC6500C5B523 /* HaffmanElement.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HaffmanElement.hpp; sourceTree = "<group>"; };
@@ -99,6 +106,7 @@
 		FA1595A11D89C7C10065388C /* GolombCoder */ = {
 			isa = PBXGroup;
 			children = (
+				FA3EA2261DFDAEDC009639D3 /* Arifmetic */,
 				FA3EA2081DE19D7D009639D3 /* Generators */,
 				FA1BB7781DDC481000AEC06E /* Haffman */,
 				FA1BB7771DDC47F600AEC06E /* Golomb */,
@@ -155,6 +163,18 @@
 				FA3EA20D1DE1D813009639D3 /* ValueAccumulator.hpp */,
 			);
 			name = Generators;
+			sourceTree = "<group>";
+		};
+		FA3EA2261DFDAEDC009639D3 /* Arifmetic */ = {
+			isa = PBXGroup;
+			children = (
+				FA3EA2271DFDAF1C009639D3 /* ArifmeticCodec.cpp */,
+				FA3EA2281DFDAF1C009639D3 /* ArifmeticCodec.hpp */,
+				FA3EA22A1DFDB4D7009639D3 /* ArifmeticMain.h */,
+				FA3EA22B1DFDB6CB009639D3 /* ArifmeticProbe.cpp */,
+				FA3EA22C1DFDB6CB009639D3 /* ArifmeticProbe.hpp */,
+			);
+			name = Arifmetic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,9 +244,11 @@
 				FA3EA2121DEDE203009639D3 /* HaffmanDecoder.cpp in Sources */,
 				FA3EA20B1DE19DB9009639D3 /* MarcovGenerator.cpp in Sources */,
 				FA3EA21B1DEDF1C3009639D3 /* WriteToFile.cpp in Sources */,
+				FA3EA2291DFDAF1C009639D3 /* ArifmeticCodec.cpp in Sources */,
 				FA3EA2241DEEC2FE009639D3 /* MatrixCulculate.cpp in Sources */,
 				FA1595AE1D89CEB20065388C /* GolombCoder.cpp in Sources */,
 				FA3EA21E1DEE08C0009639D3 /* ReadFromFile.cpp in Sources */,
+				FA3EA22D1DFDB6CB009639D3 /* ArifmeticProbe.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

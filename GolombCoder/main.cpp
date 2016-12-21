@@ -7,6 +7,8 @@
 //
 
 #include <iostream>
+#include "ArifmeticMain.h"
+
 #include "GolombMain.h"
 
 #include "HaffmanMain.h"
@@ -24,6 +26,8 @@ int main(int argc, const char * argv[])
     
     /// GOLOMB
     golomb();
-    /// 
+    
+    /// Arifmetic
+    ArifmeticDef();
     
 }

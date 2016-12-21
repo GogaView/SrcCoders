@@ -53,14 +53,14 @@ void golomb()
     
     
     
-    
-        CGolombGenerator golombGenerator(10, 0.5);
-        std::vector<int> lSrcData = golombGenerator.getSourceData();
-    
-        GolombCoder golombcoder(3);
-        golombcoder.coding(lSrcData);
-    
-        GolombDecoder golombDecoder(golombcoder.getBitstream(), 3);
+//    
+//        CGolombGenerator golombGenerator(10, 0.5);
+//        std::vector<int> lSrcData = golombGenerator.getSourceData();
+//    
+//        GolombCoder golombcoder(3);
+//        golombcoder.coding(lSrcData);
+//    
+//        GolombDecoder golombDecoder(golombcoder.getBitstream(), 3);
     
 
 }
